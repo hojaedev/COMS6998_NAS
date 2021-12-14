@@ -95,8 +95,8 @@ Performance comparison of models:
 Discovered architectures:
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/44733338/146054520-f3f5c2ee-9e56-41be-87d6-351985edf4e8.png" width="50%" />
-    <img src="https://user-images.githubusercontent.com/44733338/146054560-b434b52c-7440-4eae-bca6-34c14496198a.png" width="50%" />
+    <img src="https://user-images.githubusercontent.com/44733338/146054520-f3f5c2ee-9e56-41be-87d6-351985edf4e8.png" width="40%" />
+    <img src="https://user-images.githubusercontent.com/44733338/146054560-b434b52c-7440-4eae-bca6-34c14496198a.png" width="40%" />
 </p>
 
 ```
