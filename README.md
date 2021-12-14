@@ -59,7 +59,32 @@ Search space:
 State representation:
 ![image](https://user-images.githubusercontent.com/44733338/146051254-ab9c59cc-0cdd-4005-8340-d5cfc5f4f590.png)
 
-<img width="707" alt="Screen Shot 2021-12-14 at 12 41 31 PM" src="https://user-images.githubusercontent.com/44733338/146051949-8f902b07-f6e3-4b84-918c-20b7e468a1cc.png">
+Solution Diagram / Architecture:
+![image](https://user-images.githubusercontent.com/44733338/146052177-7faa2766-8c81-4c5a-8155-5b52c6055ab1.png)
+
+Implementation Details:
+
+Dataset: Daily and Intraday Price + Volume Data For All U.S. Stocks & ETFs > 1 Hour > Tesla
+(https://www.kaggle.com/borismarjanovic/daily-and-intraday-stock-price-data)
+
+Parameters:
+- Batch Size = 32
+- Sequence Length = 5
+- # Max Layers = 8
+- # of Runs = 2
+- Trials Per Run = 300
+- # Epochs per Trial = 10
+- Exploration Rate Run 1 = 0.8
+- Exploration Rate Run 2 = 0.2
+- Regularization = 1e-3
+
+Train Environment: GCP: Nvidia Tesla V100
+
+ML Framework: Tensorflow
+
+Types of Layer: LSTM, GRU, Dropout, Dense
+
+Type of Activations: tanh, ReLU, sigmoid, linear, None
 
 ```
 ## News
