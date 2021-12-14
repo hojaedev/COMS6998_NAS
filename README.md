@@ -54,7 +54,7 @@ Below is how we defined the search space and states which were fed to the RL-bas
 
 Search space:
 ![image](https://user-images.githubusercontent.com/44733338/146051142-c9974e1b-3cf2-46c1-aad8-47fd83691e4b.png)
-![image=10x10](https://user-images.githubusercontent.com/44733338/146051174-dbfa9927-9870-437f-814e-82c6027ab79f.png)
+![image](https://user-images.githubusercontent.com/44733338/146051174-dbfa9927-9870-437f-814e-82c6027ab79f.png =10x10)
 
 State representation:
 
