@@ -97,6 +97,7 @@ Basic NAS Search Space           |  Diverse NAS Search Space
 ![](https://user-images.githubusercontent.com/44733338/146056162-86c0b87a-7160-434b-8db7-1cff54b5fe56.png)  |  ![](https://user-images.githubusercontent.com/44733338/146056346-3388528b-d497-4a6a-84ec-dd76779de58b.png)
 
 Performance comparison of models:
+![image](https://user-images.githubusercontent.com/44733338/146057042-684c278a-72d5-4264-9285-3fe2df32704b.png)
 
 Discovered architectures:
 
