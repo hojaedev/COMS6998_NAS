@@ -88,6 +88,11 @@ Types of Layer: LSTM, GRU, Dropout, Dense
 Type of Activations: tanh, ReLU, sigmoid, linear, None
 
 ## Results
+Graphs of each model on test data (TESLA stock after 2017):
+
+![6998_final_1](https://user-images.githubusercontent.com/44733338/146055820-cedcccc1-3462-4e4e-a91d-4e11fed21255.png)
+
+
 Performance comparison of models:
 
 ![image](https://user-images.githubusercontent.com/44733338/146054160-4c7e2c57-e562-4490-8d5f-f5f54ef2615a.png)
