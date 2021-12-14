@@ -2,7 +2,7 @@
 # Revisiting stock price prediction models with RNN-based Neural Architecture Search
 Kerem Guventurk (kg2900), Hojae Yoon (hy2714)
 
-## Description
+## Description of Project
 ### Problem Statement
 In this project we experimented in defining a RNN search space in NAS since it's not defined well in literature.
 ### Problem Motivation
@@ -12,6 +12,19 @@ So the major questions we tried to answer in this project were:
 1) How to formulate search space?
 2) How to tune training hyper parameters?
 3) How to implement training in existing frameworks?
+### Background Work
+
+1) Efficient Architecture Search by Network 
+(https://arxiv.org/abs/1707.04873)
+
+2) Neural Architecture Search with Controller RNN
+(https://github.com/titu1994/neural-architecture-search)
+
+3)A Technical Guide on RNN/LSTM/GRU for Stock Price Prediction
+(https://medium.com/swlh/a-technical-guide-on-rnn-lstm-gru-for-stock-price-prediction-bce2f7f30346)
+
+4) Stock Price Prediction Using CNN and LSTM-Based Deep Learning Models
+(https://arxiv.org/pdf/2010.13891.pdf)
 ### Approach
 Our approach was to build a RL based NAS inspired by the paper "Efficient Architecture Search by Network Transformation" (https://arxiv.org/abs/1707.04873).
 ### For this project, we experimented with 4 models:
