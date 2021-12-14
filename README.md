@@ -97,6 +97,9 @@ Discovered architectures:
 Vanilla LSTM            |  Vanilla GRU
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/44733338/146054520-f3f5c2ee-9e56-41be-87d6-351985edf4e8.png)  |  ![](https://user-images.githubusercontent.com/44733338/146054560-b434b52c-7440-4eae-bca6-34c14496198a.png)
+Basic NAS Search Space           |  Diverse NAS Search Space  
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/44733338/146055206-97579ac4-740e-4ce1-8990-b3f86c696bb5.png)  |  ![](https://user-images.githubusercontent.com/44733338/146055212-7be699b5-37e5-4c90-8de3-d7ad7a2f82c4.png)
 
 ```
 ## News
