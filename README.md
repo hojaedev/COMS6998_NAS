@@ -71,10 +71,10 @@ Dataset: Daily and Intraday Price + Volume Data For All U.S. Stocks & ETFs > 1 H
 Parameters:
 - Batch Size = 32
 - Sequence Length = 5
-- # Max Layers = 8
-- # of Runs = 2
+- Num of Max Layers = 8
+- Num of of Runs = 2
 - Trials Per Run = 300
-- # Epochs per Trial = 10
+- Num of Epochs per Trial = 10
 - Exploration Rate Run 1 = 0.8
 - Exploration Rate Run 2 = 0.2
 - Regularization = 1e-3
