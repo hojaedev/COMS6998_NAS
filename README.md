@@ -115,7 +115,7 @@ Expanding TSLA stock trained model to other stocks
 
 1) From our experiments, it can be observed that simpler models perform better on stock price prediction than others.
 2) While NAS with diverse search space has yielded the greatest accuracy on the TESLA dataset, its training time of 9 hours is significantly higher than a vanilla GRU (~40 secs).
-3) Although the accuracy of NAS w/ diverse search space doesn't suffer significantly when testing other datasets, it's clear that there has been some overfitting since NAS w/ basic search space and simple GRU model suffer less.
+3) Although the accuracy of NAS w/ diverse search space doesn't suffer significantly when testing other datasets, it's clear that there has been some overfitting since NAS w/ basic search space and simple GRU model suffer less. This might be due to the high exploitation rate we have selected for Run #2, the fact that we train the best model 100 epochs more without early stopping, and/or the best architecture for this task happened to not have any dropout layers.
 4) Overall, our implementation of NAS works well in generating a model that performs well given a task; however, simpler models do almost as good and have less training cost.
 
 ```
