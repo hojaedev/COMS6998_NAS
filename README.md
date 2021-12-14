@@ -118,6 +118,46 @@ Expanding TSLA stock trained model to other stocks
 3) Although the accuracy of NAS w/ diverse search space doesn't suffer significantly when testing other datasets, it's clear that there has been some overfitting since NAS w/ basic search space and simple GRU model suffer less. This might be due to the high exploitation rate we have selected for Run #2, the fact that we train the best model 100 epochs more without early stopping, and/or the best architecture for this task happened to not have any dropout layers.
 4) Overall, our implementation of NAS works well in generating a model that performs well given a task; however, simpler models do almost as good and have less training cost.
 
+## Description of Repository
+
+The code was run primarily on Google Colab; all of the colab files that were run are in the colab_files folder.
+
+The colab file which we used to train and compare models that were found in our experiments is in final_results and named Final_Results.ipynb.
+
+The entire code is in train.py. In train, there are:
+1) Script to generate train and test data from "data/tsla.us.txt".
+2) StateSpace class (which provides utility functions for holding "states" / "actions" that the controller must use to train and predict.
+3) Controller class(utility class to manage the RNN Controller)
+4) model_fn function (which is used to generate our neural networks)
+5) NetworkManager class (helper class to manage the generation of subnetwork training given a dataset)
+6) Script to perform NAS training by utilizing the classes / functions described above.
+
+## Example Commands to execute the code
+
+The code can be executed simply by running
+```
+python train.py --num_layers=8 ...
+```
+The arguments and their default values are:
+
+```
+parser = argparse.ArgumentParser()
+parser.add_argument('--num_layers', type=int, default=8)
+parser.add_argument('--max_trials', type=int, default=300)
+parser.add_argument('--max_epochs', type=int, default=10)
+parser.add_argument('--child_batchsize', type=int, default=128)
+parser.add_argument('--exploration', type=float, default=0.8)
+parser.add_argument('--regularization', type=float, default=1e-3)
+parser.add_argument('--controller_cells', type=int, default=32)
+parser.add_argument('--embedding_dim', type=int, default=20)
+parser.add_argument('--accuracy_beta', type=float, default=0.8)
+parser.add_argument('--clip_rewards', type=float, default=0.0)
+parser.add_argument('--restore_controller', type=bool, default=True)
+parser.add_argument('--sequence_length', type=int, default=5)
+parser.add_argument('--batch_size', type=int, default=32)
+parser.add_argument('--num_features', type=int, default=1)
+```
+
 ```
 ## News
 - Next generation of ProxylessNAS: [Once-for-All](https://github.com/mit-han-lab/once-for-all) (First place in the 3rd and 4th [Low-Power Computer Vision Challenge](https://lpcv.ai/competitions/2019)). 
