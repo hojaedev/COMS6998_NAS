@@ -100,6 +100,11 @@ Vanilla LSTM            |  Vanilla GRU
 Basic NAS Search Space           |  Diverse NAS Search Space  
 ![](https://user-images.githubusercontent.com/44733338/146055206-97579ac4-740e-4ce1-8990-b3f86c696bb5.png)  |  ![](https://user-images.githubusercontent.com/44733338/146055212-7be699b5-37e5-4c90-8de3-d7ad7a2f82c4.png)
 
+Expanding TSLA stock trained model to other stocks
+
+![image](https://user-images.githubusercontent.com/44733338/146055391-9433e84d-effb-4e99-bb88-262d223263ed.png)
+
+
 ```
 ## News
 - Next generation of ProxylessNAS: [Once-for-All](https://github.com/mit-han-lab/once-for-all) (First place in the 3rd and 4th [Low-Power Computer Vision Challenge](https://lpcv.ai/competitions/2019)). 
