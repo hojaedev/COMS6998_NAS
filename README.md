@@ -1,6 +1,7 @@
   
 # Revisiting stock price prediction models with RNN-based Neural Architecture Search
-## Kerem Guventurk (kg2900), Hojae Yoon (hy2714)
+Kerem Guventurk (kg2900), Hojae Yoon (hy2714)
+
 ## Description
 ### Problem Statement
 In this project we experimented in defining a RNN search space in NAS since it's not defined well in literature.
