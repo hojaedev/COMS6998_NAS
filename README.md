@@ -1,15 +1,18 @@
   
-# ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware [[arXiv]](https://arxiv.org/abs/1812.00332) [[Poster]](https://file.lzhu.me/projects/proxylessNAS/figures/ProxylessNAS_iclr_poster_final.pdf)
-```bash
-@inproceedings{
-  cai2018proxylessnas,
-  title={Proxyless{NAS}: Direct Neural Architecture Search on Target Task and Hardware},
-  author={Han Cai and Ligeng Zhu and Song Han},
-  booktitle={International Conference on Learning Representations},
-  year={2019},
-  url={https://arxiv.org/pdf/1812.00332.pdf},
-}
+# Revisiting stock price prediction models with RNN-based Neural Architecture Search
+## Kerem Guventurk (kg2900), Hojae Yoon (hy2714)
 ```
+## Description
+### Problem Statement
+In this project we experimented in defining a RNN search space in NAS since it's not defined well in literature.
+### Approach
+Our approach was to build a RL based NAS inspired by the paper "Efficient Architecture Search by Network Transformation" (https://arxiv.org/abs/1707.04873).
+### For this project, we experimented with 4 models:
+1. Vanilla LSTM
+2. Vanilla GRU
+3. NAS with basic search space (LSTM stacking with Dropout)
+4. NAS with diverse search space (LSTM, GRU, Activation Functions, Dropout)
+
 
 ## News
 - Next generation of ProxylessNAS: [Once-for-All](https://github.com/mit-han-lab/once-for-all) (First place in the 3rd and 4th [Low-Power Computer Vision Challenge](https://lpcv.ai/competitions/2019)). 
