@@ -87,6 +87,10 @@ Types of Layer: LSTM, GRU, Dropout, Dense
 
 Type of Activations: tanh, ReLU, sigmoid, linear, None
 
+## Results
+
+![image](https://user-images.githubusercontent.com/44733338/146054160-4c7e2c57-e562-4490-8d5f-f5f54ef2615a.png)
+
 ```
 ## News
 - Next generation of ProxylessNAS: [Once-for-All](https://github.com/mit-han-lab/once-for-all) (First place in the 3rd and 4th [Low-Power Computer Vision Challenge](https://lpcv.ai/competitions/2019)). 
