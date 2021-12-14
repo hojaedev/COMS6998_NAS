@@ -88,8 +88,16 @@ Types of Layer: LSTM, GRU, Dropout, Dense
 Type of Activations: tanh, ReLU, sigmoid, linear, None
 
 ## Results
+Performance comparison of models:
 
 ![image](https://user-images.githubusercontent.com/44733338/146054160-4c7e2c57-e562-4490-8d5f-f5f54ef2615a.png)
+
+Discovered architectures:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/44733338/146054520-f3f5c2ee-9e56-41be-87d6-351985edf4e8.png" width="50%" />
+    <img src="https://user-images.githubusercontent.com/44733338/146054560-b434b52c-7440-4eae-bca6-34c14496198a.png" width="50%" />
+</p>
 
 ```
 ## News
