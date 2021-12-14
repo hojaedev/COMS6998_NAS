@@ -16,7 +16,7 @@ So the major questions we tried to answer in this project were:
 
 ### Background Work
 In building this project, we refered and utilized these papers, tutorials, and repositories:
-1) Efficient Architecture Search by Network 
+1) Efficient Architecture Search by Network Transformation
 (https://arxiv.org/abs/1707.04873)
 2) Neural Architecture Search with Controller RNN
 (https://github.com/titu1994/neural-architecture-search)
@@ -29,13 +29,28 @@ The code for this project was an adapted version of #2 (Neural Architecture Sear
 
 ![image](https://user-images.githubusercontent.com/44733338/146050569-14c70c9c-18e0-4c79-ae56-0e8ae0eeba8c.png)
 
-### Approach
-Our approach was to build a RL based NAS inspired by the paper "Efficient Architecture Search by Network Transformation" (https://arxiv.org/abs/1707.04873).
-### For this project, we experimented with 4 models:
+### Our Approach
+Below is our implementation of the NAS model combining the repository mentioned above and the high-level idea in "Efficient Architecture Search by Network Transformation"
+
+Algorithm:
+RL based NAS inspired by Efficient Architecture Search by Network Transformation
+1. Train 300 different models for 10 epochs and selects a subset of well performing models
+2. Selects the well performing models as the baseline for the next RL exploration stage
+3. Trains 300 different models for 10 epochs with a higher exploitation rate (80%)
+4. Selects the best (1) model and trains for 100 epochs
+
+Functions:
+- Dynamically resize width and depth
+- Dynamically generates new models with diverse architectures
+- RNN controller outputs probabilities of each block (with parameters) being selected
+
+Comparison of 4 approaches
 1. Vanilla LSTM
 2. Vanilla GRU
 3. NAS with basic search space (LSTM stacking with Dropout)
 4. NAS with diverse search space (LSTM, GRU, Activation Functions, Dropout)
+
+
 ```
 ## News
 - Next generation of ProxylessNAS: [Once-for-All](https://github.com/mit-han-lab/once-for-all) (First place in the 3rd and 4th [Low-Power Computer Vision Challenge](https://lpcv.ai/competitions/2019)). 
