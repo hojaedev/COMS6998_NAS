@@ -94,9 +94,7 @@ Vanilla LSTM            |  Vanilla GRU
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/44733338/146055820-cedcccc1-3462-4e4e-a91d-4e11fed21255.png)  |  ![](https://user-images.githubusercontent.com/44733338/146056158-00e1db76-17f0-494c-9613-c08b105c3948.png)
 Basic NAS Search Space           |  Diverse NAS Search Space  
-![](https://user-images.githubusercontent.com/44733338/146056162-86c0b87a-7160-434b-8db7-1cff54b5fe56.png)  |  ![](https://user-images.githubusercontent.com/44733338/146056173-64faae48-c0cd-45fe-876b-dbe2b0ffcfbb.png)
-
-
+![](https://user-images.githubusercontent.com/44733338/146056162-86c0b87a-7160-434b-8db7-1cff54b5fe56.png)  |  ![](https://user-images.githubusercontent.com/44733338/146056346-3388528b-d497-4a6a-84ec-dd76779de58b.png)
 
 Performance comparison of models:
 
