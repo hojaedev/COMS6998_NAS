@@ -60,9 +60,10 @@ State representation:
 ![image](https://user-images.githubusercontent.com/44733338/146051254-ab9c59cc-0cdd-4005-8340-d5cfc5f4f590.png)
 
 Solution Diagram / Architecture:
+
 ![image](https://user-images.githubusercontent.com/44733338/146052177-7faa2766-8c81-4c5a-8155-5b52c6055ab1.png)
 
-Implementation Details:
+### Implementation Details
 
 Dataset: Daily and Intraday Price + Volume Data For All U.S. Stocks & ETFs > 1 Hour > Tesla
 (https://www.kaggle.com/borismarjanovic/daily-and-intraday-stock-price-data)
