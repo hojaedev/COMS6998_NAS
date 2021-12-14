@@ -98,8 +98,6 @@ Basic NAS Search Space           |  Diverse NAS Search Space
 
 Performance comparison of models:
 
-![image](https://user-images.githubusercontent.com/44733338/146054160-4c7e2c57-e562-4490-8d5f-f5f54ef2615a.png)
-
 Discovered architectures:
 
 Vanilla LSTM            |  Vanilla GRU
@@ -112,6 +110,12 @@ Expanding TSLA stock trained model to other stocks
 
 ![image](https://user-images.githubusercontent.com/44733338/146055391-9433e84d-effb-4e99-bb88-262d223263ed.png)
 
+## Observations
+
+1) From our experiments, it can be observed that simpler models perform better on stock price prediction than others.
+2) While NAS with diverse search space has yielded the greatest accuracy on the TESLA dataset, its training time of 9 hours is significantly higher than a vanilla GRU (~40 secs).
+3) Although the accuracy of NAS w/ diverse search space doesn't suffer significantly when testing other datasets, it's clear that there has been some overfitting since NAS w/ basic search space and simple GRU model suffer less.
+4) Overall, our implementation of NAS works well in generating a model that performs well given a task; however, simpler models do almost as good and have less training cost.
 
 ```
 ## News
