@@ -1,7 +1,6 @@
   
 # Revisiting stock price prediction models with RNN-based Neural Architecture Search
 ## Kerem Guventurk (kg2900), Hojae Yoon (hy2714)
-```
 ## Description
 ### Problem Statement
 In this project we experimented in defining a RNN search space in NAS since it's not defined well in literature.
@@ -12,8 +11,7 @@ Our approach was to build a RL based NAS inspired by the paper "Efficient Archit
 2. Vanilla GRU
 3. NAS with basic search space (LSTM stacking with Dropout)
 4. NAS with diverse search space (LSTM, GRU, Activation Functions, Dropout)
-
-
+```
 ## News
 - Next generation of ProxylessNAS: [Once-for-All](https://github.com/mit-han-lab/once-for-all) (First place in the 3rd and 4th [Low-Power Computer Vision Challenge](https://lpcv.ai/competitions/2019)). 
 - First place in the Visual Wake Words Challenge, TF-lite track, @CVPR 2019
