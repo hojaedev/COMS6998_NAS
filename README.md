@@ -94,14 +94,9 @@ Performance comparison of models:
 
 Discovered architectures:
 
-<p align="center">
-    <a width="30%" >
-    	<img src="https://user-images.githubusercontent.com/44733338/146054520-f3f5c2ee-9e56-41be-87d6-351985edf4e8.png" />
-    <a>
-    <a width="30%" >
-    	<img src="https://user-images.githubusercontent.com/44733338/146054560-b434b52c-7440-4eae-bca6-34c14496198a.png" />
-    <a>
-</p>
+Vanilla LSTM            |  Vanilla GRU
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/44733338/146054520-f3f5c2ee-9e56-41be-87d6-351985edf4e8.png)  |  ![](https://user-images.githubusercontent.com/44733338/146054560-b434b52c-7440-4eae-bca6-34c14496198a.png)
 
 ```
 ## News
