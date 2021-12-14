@@ -5,6 +5,13 @@ Kerem Guventurk (kg2900), Hojae Yoon (hy2714)
 ## Description
 ### Problem Statement
 In this project we experimented in defining a RNN search space in NAS since it's not defined well in literature.
+### Problem Motivation
+Most NAS studies focus on CNN based tasks however RNN based search space is not well defined in NAS literature. On top of that, the types of networks that are built to solve RNN problems are drastically different than that of CNN problems.
+
+So the major questions we tried to answer in this project were:
+1) How to formulate search space?
+2) How to tune training hyper parameters?
+3) How to implement training in existing frameworks?
 ### Approach
 Our approach was to build a RL based NAS inspired by the paper "Efficient Architecture Search by Network Transformation" (https://arxiv.org/abs/1707.04873).
 ### For this project, we experimented with 4 models:
